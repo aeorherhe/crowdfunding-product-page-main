@@ -216,6 +216,12 @@ section styles
   display: none;
 }
 
+@media screen and (max-width: 24rem) {
+  .btn {
+    font-size: 0.75rem;
+  }
+}
+
 /* for JS */
 .bookmarked .bookmark-img circle {
   fill: var(--Dark-cyan);
