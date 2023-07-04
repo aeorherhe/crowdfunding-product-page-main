@@ -153,3 +153,11 @@ selectionBtn(articlesHome, [
   "black-edition",
   "mahogany-edition",
 ]);
+
+// return to home
+const returnBtn = document.querySelector(".got-it-btn");
+
+returnBtn.addEventListener("click", () => {
+  contents.classList.remove("show");
+  contents.classList.remove("show-success");
+});

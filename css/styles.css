@@ -503,7 +503,7 @@ overlay section
 
 .success-section {
   background: var(--White);
-  margin: 0 10rem;
+  /* margin: 0 10rem; */
   position: absolute;
   top: 15rem;
   z-index: 111;
@@ -603,6 +603,10 @@ overlay section
 
   .enter-amount {
     position: relative;
+  }
+
+  .success-section {
+    margin: 0 10rem;
   }
 }
 
